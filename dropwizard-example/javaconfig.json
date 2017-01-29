@@ -1,0 +1,110 @@
+{
+  "sourceDirectory" : "src/main/java",
+  "testSourceDirectory" : "src/test/java",
+  "repositories" : [ {
+    "id" : "sonatype-nexus-snapshots",
+    "url" : "http://oss.sonatype.org/content/repositories/snapshots"
+  }, {
+    "id" : "central",
+    "url" : "https://repo.maven.apache.org/maven2"
+  } ],
+  "dependencies" : [ {
+    "groupId" : "io.dropwizard",
+    "artifactId" : "dropwizard-core",
+    "version" : "1.1.0-SNAPSHOT",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "io.dropwizard", "io.dropwizard.server", "io.dropwizard.sslreload", "io.dropwizard.setup", "io.dropwizard.cli" ]
+  }, {
+    "groupId" : "io.dropwizard",
+    "artifactId" : "dropwizard-auth",
+    "version" : "1.1.0-SNAPSHOT",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "io.dropwizard.auth.chained", "io.dropwizard.auth.oauth", "io.dropwizard.auth.basic", "io.dropwizard.auth" ]
+  }, {
+    "groupId" : "io.dropwizard",
+    "artifactId" : "dropwizard-assets",
+    "version" : "1.1.0-SNAPSHOT",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "io.dropwizard.assets" ]
+  }, {
+    "groupId" : "io.dropwizard",
+    "artifactId" : "dropwizard-http2",
+    "version" : "1.1.0-SNAPSHOT",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "io.dropwizard.http2" ]
+  }, {
+    "groupId" : "io.dropwizard",
+    "artifactId" : "dropwizard-hibernate",
+    "version" : "1.1.0-SNAPSHOT",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "io.dropwizard.hibernate" ]
+  }, {
+    "groupId" : "io.dropwizard",
+    "artifactId" : "dropwizard-migrations",
+    "version" : "1.1.0-SNAPSHOT",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "io.dropwizard.migrations" ]
+  }, {
+    "groupId" : "io.dropwizard",
+    "artifactId" : "dropwizard-views-freemarker",
+    "version" : "1.1.0-SNAPSHOT",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "io.dropwizard.views.freemarker" ]
+  }, {
+    "groupId" : "io.dropwizard",
+    "artifactId" : "dropwizard-views-mustache",
+    "version" : "1.1.0-SNAPSHOT",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "io.dropwizard.views.mustache" ]
+  }, {
+    "groupId" : "io.dropwizard",
+    "artifactId" : "dropwizard-metrics-graphite",
+    "version" : "1.1.0-SNAPSHOT",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "io.dropwizard.metrics.graphite" ]
+  }, {
+    "groupId" : "com.h2database",
+    "artifactId" : "h2",
+    "version" : "1.4.193",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "org.h2.mvstore.db", "org.h2.mvstore.cache", "org.h2.table", "org.h2.value", "org.h2.message", "org.h2", "org.h2.expression", "org.h2.mvstore.rtree", "org.h2.mvstore", "org.h2.schema", "org.h2.command", "org.h2.server.pg", "org.h2.server", "org.h2.api", "org.h2.bnf", "org.h2.mvstore.type", "org.h2.command.ddl", "org.h2.index", "org.h2.constraint", "org.h2.server.web", "org.h2.compress", "org.h2.result", "org.h2.jmx", "org.h2.jdbc", "org.h2.util", "org.h2.bnf.context", "org.h2.fulltext", "org.h2.jdbcx", "org.h2.command.dml", "org.h2.security", "org.h2.store", "org.h2.upgrade", "org.h2.store.fs", "org.h2.engine", "org.h2.tools" ]
+  }, {
+    "groupId" : "io.dropwizard",
+    "artifactId" : "dropwizard-testing",
+    "version" : "1.1.0-SNAPSHOT",
+    "scope" : "test",
+    "systemPath" : null,
+    "packages" : [ "io.dropwizard.testing.junit", "io.dropwizard.testing" ]
+  }, {
+    "groupId" : "org.mockito",
+    "artifactId" : "mockito-core",
+    "version" : "2.6.1",
+    "scope" : "test",
+    "systemPath" : null,
+    "packages" : [ "org.mockito.internal.exceptions.stacktrace", "org.mockito.internal.verification.api", "org.mockito.internal.configuration.injection.scanner", "org.mockito.internal.matchers", "org.mockito.hamcrest", "org.mockito.internal.verification.checkers", "org.mockito.quality", "org.mockito.internal.creation", "org.mockito.internal.creation.instance", "org.mockito.internal.stubbing", "org.mockito.internal.framework", "org.mockito.listeners", "org.mockito.internal.invocation", "org.mockito.invocation", "org.mockito.internal.util.collections", "org.mockito", "org.mockito.internal.stubbing.answers", "org.mockito.internal.configuration.injection.filter", "org.mockito.internal.configuration.plugins", "org.mockito.runners", "org.mockito.internal.configuration.injection", "org.mockito.stubbing", "org.mockito.internal.verification.argumentmatching", "org.mockito.internal.util.concurrent", "org.mockito.internal.junit", "org.mockito.exceptions.verification", "org.mockito.internal.creation.settings", "org.mockito.internal.verification", "org.mockito.internal.util.reflection", "org.mockito.mock", "org.mockito.internal.progress", "org.mockito.internal.hamcrest", "org.mockito.internal.creation.bytebuddy", "org.mockito.internal", "org.mockito.internal.runners", "org.mockito.internal.util.io", "org.mockito.verification", "org.mockito.internal.reporting", "org.mockito.plugins", "org.mockito.exceptions.stacktrace", "org.mockito.exceptions.base", "org.mockito.internal.util", "org.mockito.internal.creation.util", "org.mockito.exceptions.verification.junit", "org.mockito.internal.exceptions", "org.mockito.exceptions.misusing", "org.mockito.internal.exceptions.util", "org.mockito.internal.handler", "org.mockito.internal.matchers.apachecommons", "org.mockito.internal.runners.util", "org.mockito.configuration", "org.mockito.internal.listeners", "org.mockito.internal.configuration", "org.mockito.internal.invocation.finder", "org.mockito.internal.stubbing.defaultanswers", "org.mockito.internal.matchers.text", "org.mockito.internal.invocation.realmethod", "org.mockito.junit", "org.mockito.internal.debugging", "org.mockito.internal.junit.util" ]
+  }, {
+    "groupId" : "org.glassfish.jersey.test-framework.providers",
+    "artifactId" : "jersey-test-framework-provider-inmemory",
+    "version" : "2.25",
+    "scope" : "test",
+    "systemPath" : null,
+    "packages" : [ "org.glassfish.jersey.test.inmemory" ]
+  }, {
+    "groupId" : "org.glassfish.jersey.test-framework.providers",
+    "artifactId" : "jersey-test-framework-provider-grizzly2",
+    "version" : "2.25",
+    "scope" : "test",
+    "systemPath" : null,
+    "packages" : [ "org.glassfish.jersey.test.grizzly" ]
+  } ]
+}
