@@ -16,6 +16,475 @@
     "systemPath" : null,
     "packages" : [ "io.dropwizard.views" ]
   }, {
+    "groupId" : "io.dropwizard",
+    "artifactId" : "dropwizard-core",
+    "version" : "1.1.0-SNAPSHOT",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "io.dropwizard", "io.dropwizard.server", "io.dropwizard.sslreload", "io.dropwizard.setup", "io.dropwizard.cli" ]
+  }, {
+    "groupId" : "io.dropwizard",
+    "artifactId" : "dropwizard-util",
+    "version" : "1.1.0-SNAPSHOT",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "io.dropwizard.util" ]
+  }, {
+    "groupId" : "com.fasterxml.jackson.core",
+    "artifactId" : "jackson-annotations",
+    "version" : "2.8.0",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "com.fasterxml.jackson.annotation" ]
+  }, {
+    "groupId" : "com.google.guava",
+    "artifactId" : "guava",
+    "version" : "21.0",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "com.google.common.annotations", "com.google.common.base", "com.google.common.graph", "com.google.common.hash", "com.google.common.escape", "com.google.common.reflect", "com.google.common.html", "com.google.common.util.concurrent", "com.google.thirdparty.publicsuffix", "com.google.common.net", "com.google.common.math", "com.google.common.base.internal", "com.google.common.primitives", "com.google.common.cache", "com.google.common.xml", "com.google.common.eventbus", "com.google.common.io", "com.google.common.collect" ]
+  }, {
+    "groupId" : "com.google.code.findbugs",
+    "artifactId" : "jsr305",
+    "version" : "3.0.1",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "javax.annotation", "javax.annotation.meta", "javax.annotation.concurrent" ]
+  }, {
+    "groupId" : "joda-time",
+    "artifactId" : "joda-time",
+    "version" : "2.9.7",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "org.joda.time.field", "org.joda.time", "org.joda.time.convert", "org.joda.time.tz", "org.joda.time.chrono", "org.joda.time.base", "org.joda.time.format" ]
+  }, {
+    "groupId" : "io.dropwizard",
+    "artifactId" : "dropwizard-jackson",
+    "version" : "1.1.0-SNAPSHOT",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "io.dropwizard.jackson" ]
+  }, {
+    "groupId" : "com.fasterxml.jackson.core",
+    "artifactId" : "jackson-core",
+    "version" : "2.8.6",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "com.fasterxml.jackson.core.format", "com.fasterxml.jackson.core.io", "com.fasterxml.jackson.core.json", "com.fasterxml.jackson.core.filter", "com.fasterxml.jackson.core", "com.fasterxml.jackson.core.util", "com.fasterxml.jackson.core.type", "com.fasterxml.jackson.core.base", "com.fasterxml.jackson.core.sym" ]
+  }, {
+    "groupId" : "com.fasterxml.jackson.core",
+    "artifactId" : "jackson-databind",
+    "version" : "2.8.6",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "com.fasterxml.jackson.databind.exc", "com.fasterxml.jackson.databind.introspect", "com.fasterxml.jackson.databind.deser", "com.fasterxml.jackson.databind.jsontype", "com.fasterxml.jackson.databind.type", "com.fasterxml.jackson.databind.module", "com.fasterxml.jackson.databind.node", "com.fasterxml.jackson.databind.jsonFormatVisitors", "com.fasterxml.jackson.databind.jsontype.impl", "com.fasterxml.jackson.databind.ext", "com.fasterxml.jackson.databind.ser.std", "com.fasterxml.jackson.databind.util", "com.fasterxml.jackson.databind.jsonschema", "com.fasterxml.jackson.databind.ser", "com.fasterxml.jackson.databind.cfg", "com.fasterxml.jackson.databind.deser.impl", "com.fasterxml.jackson.databind.annotation", "com.fasterxml.jackson.databind", "com.fasterxml.jackson.databind.ser.impl", "com.fasterxml.jackson.databind.deser.std" ]
+  }, {
+    "groupId" : "com.fasterxml.jackson.datatype",
+    "artifactId" : "jackson-datatype-guava",
+    "version" : "2.8.6",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "com.fasterxml.jackson.datatype.guava.ser", "com.fasterxml.jackson.datatype.guava.deser.multimap.list", "com.fasterxml.jackson.datatype.guava.deser.util", "com.fasterxml.jackson.datatype.guava.deser", "com.fasterxml.jackson.datatype.guava.deser.multimap", "com.fasterxml.jackson.datatype.guava", "com.fasterxml.jackson.datatype.guava.deser.multimap.set" ]
+  }, {
+    "groupId" : "com.fasterxml.jackson.datatype",
+    "artifactId" : "jackson-datatype-jsr310",
+    "version" : "2.8.6",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "com.fasterxml.jackson.datatype.jsr310", "com.fasterxml.jackson.datatype.jsr310.ser", "com.fasterxml.jackson.datatype.jsr310.ser.key", "com.fasterxml.jackson.datatype.jsr310.deser", "com.fasterxml.jackson.datatype.jsr310.deser.key" ]
+  }, {
+    "groupId" : "com.fasterxml.jackson.datatype",
+    "artifactId" : "jackson-datatype-jdk8",
+    "version" : "2.8.6",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "com.fasterxml.jackson.datatype.jdk8" ]
+  }, {
+    "groupId" : "com.fasterxml.jackson.module",
+    "artifactId" : "jackson-module-afterburner",
+    "version" : "2.8.6",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "com.fasterxml.jackson.module.afterburner", "com.fasterxml.jackson.module.afterburner.ser", "com.fasterxml.jackson.module.afterburner.util", "com.fasterxml.jackson.module.afterburner.deser", "com.fasterxml.jackson.module.afterburner.asm.signature", "com.fasterxml.jackson.module.afterburner.asm" ]
+  }, {
+    "groupId" : "com.fasterxml.jackson.datatype",
+    "artifactId" : "jackson-datatype-joda",
+    "version" : "2.8.6",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "com.fasterxml.jackson.datatype.joda.deser.key", "com.fasterxml.jackson.datatype.joda.cfg", "com.fasterxml.jackson.datatype.joda", "com.fasterxml.jackson.datatype.joda.deser", "com.fasterxml.jackson.datatype.joda.ser" ]
+  }, {
+    "groupId" : "org.slf4j",
+    "artifactId" : "slf4j-api",
+    "version" : "1.7.22",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "org.slf4j", "org.slf4j.spi", "org.slf4j.event", "org.slf4j.helpers" ]
+  }, {
+    "groupId" : "ch.qos.logback",
+    "artifactId" : "logback-classic",
+    "version" : "1.1.8",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "ch.qos.logback.classic.db.names", "ch.qos.logback.classic.pattern.color", "ch.qos.logback.classic.spi", "ch.qos.logback.classic.html", "ch.qos.logback.classic.selector.servlet", "ch.qos.logback.classic.joran", "ch.qos.logback.classic.helpers", "ch.qos.logback.classic.layout", "ch.qos.logback.classic.boolex", "ch.qos.logback.classic.joran.action", "ch.qos.logback.classic.pattern", "ch.qos.logback.classic.turbo", "ch.qos.logback.classic.db", "ch.qos.logback.classic.sift", "ch.qos.logback.classic.gaffer", "ch.qos.logback.classic.net.server", "org.slf4j.impl", "ch.qos.logback.classic.log4j", "ch.qos.logback.classic.filter", "ch.qos.logback.classic.jul", "ch.qos.logback.classic.selector", "ch.qos.logback.classic.encoder", "ch.qos.logback.classic.util", "ch.qos.logback.classic", "ch.qos.logback.classic.net", "ch.qos.logback.classic.jmx" ]
+  }, {
+    "groupId" : "io.dropwizard",
+    "artifactId" : "dropwizard-validation",
+    "version" : "1.1.0-SNAPSHOT",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "io.dropwizard.validation.valuehandling", "io.dropwizard.validation" ]
+  }, {
+    "groupId" : "org.hibernate",
+    "artifactId" : "hibernate-validator",
+    "version" : "5.3.4.Final",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "org.hibernate.validator.internal.constraintvalidators.bv.past", "org.hibernate.validator.spi.cfg", "org.hibernate.validator.internal.engine.messageinterpolation.el", "org.hibernate.validator.constraintvalidation", "org.hibernate.validator.internal.metadata.descriptor", "org.hibernate.validator.internal.engine.constraintvalidation", "org.hibernate.validator.internal.constraintvalidators.hv.br", "org.hibernate.validator", "org.hibernate.validator.constraints", "org.hibernate.validator.path", "org.hibernate.validator.constraintvalidators", "org.hibernate.validator.internal.engine.groups", "org.hibernate.validator.internal.util.classhierarchy", "org.hibernate.validator.internal.metadata.facets", "org.hibernate.validator.spi.resourceloading", "org.hibernate.validator.internal.metadata", "org.hibernate.validator.internal.metadata.raw", "org.hibernate.validator.internal.util.scriptengine", "org.hibernate.validator.internal.cfg.context", "org.hibernate.validator.internal.metadata.location", "org.hibernate.validator.parameternameprovider", "org.hibernate.validator.constraints.br", "org.hibernate.validator.internal.engine.path", "org.hibernate.validator.internal.constraintvalidators.hv", "org.hibernate.validator.internal.util.privilegedactions", "org.hibernate.validator.internal.metadata.provider", "org.hibernate.validator.internal.xml", "org.hibernate.validator.internal.constraintvalidators.bv.future", "org.hibernate.validator.internal.engine.resolver", "org.hibernate.validator.group", "org.hibernate.validator.resourceloading", "org.hibernate.validator.spi.group", "org.hibernate.validator.valuehandling", "org.hibernate.validator.internal.engine.constraintdefinition", "org.hibernate.validator.cfg", "org.hibernate.validator.internal.engine.time", "org.hibernate.validator.internal.metadata.aggregated", "org.hibernate.validator.internal.constraintvalidators.bv", "org.hibernate.validator.internal.util.logging", "org.hibernate.validator.engine", "org.hibernate.validator.internal.engine", "org.hibernate.validator.internal.metadata.aggregated.rule", "org.hibernate.validator.internal.engine.messageinterpolation", "org.hibernate.validator.internal.engine.valuehandling", "org.hibernate.validator.messageinterpolation", "org.hibernate.validator.cfg.context", "org.hibernate.validator.internal.constraintvalidators.bv.size", "org.hibernate.validator.internal.engine.messageinterpolation.parser", "org.hibernate.validator.internal.metadata.core", "org.hibernate.validator.internal.util.annotationfactory", "org.hibernate.validator.spi.valuehandling", "org.hibernate.validator.internal.util", "org.hibernate.validator.spi.time", "org.hibernate.validator.cfg.defs" ]
+  }, {
+    "groupId" : "org.jboss.logging",
+    "artifactId" : "jboss-logging",
+    "version" : "3.3.0.Final",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "org.jboss.logging" ]
+  }, {
+    "groupId" : "com.fasterxml",
+    "artifactId" : "classmate",
+    "version" : "1.3.3",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "com.fasterxml.classmate.types", "com.fasterxml.classmate.members", "com.fasterxml.classmate", "com.fasterxml.classmate.util" ]
+  }, {
+    "groupId" : "org.glassfish",
+    "artifactId" : "javax.el",
+    "version" : "3.0.0",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "com.sun.el", "com.sun.el.stream", "com.sun.el.parser", "com.sun.el.lang", "javax.el", "com.sun.el.util" ]
+  }, {
+    "groupId" : "io.dropwizard",
+    "artifactId" : "dropwizard-configuration",
+    "version" : "1.1.0-SNAPSHOT",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "io.dropwizard.configuration" ]
+  }, {
+    "groupId" : "com.fasterxml.jackson.dataformat",
+    "artifactId" : "jackson-dataformat-yaml",
+    "version" : "2.8.6",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "com.fasterxml.jackson.dataformat.yaml.snakeyaml.error", "com.fasterxml.jackson.dataformat.yaml" ]
+  }, {
+    "groupId" : "org.yaml",
+    "artifactId" : "snakeyaml",
+    "version" : "1.17",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "org.yaml.snakeyaml.constructor", "org.yaml.snakeyaml", "org.yaml.snakeyaml.extensions.compactnotation", "org.yaml.snakeyaml.parser", "org.yaml.snakeyaml.tokens", "org.yaml.snakeyaml.emitter", "org.yaml.snakeyaml.introspector", "org.yaml.snakeyaml.serializer", "org.yaml.snakeyaml.external.biz.base64Coder", "org.yaml.snakeyaml.scanner", "org.yaml.snakeyaml.external.com.google.gdata.util.common.base", "org.yaml.snakeyaml.representer", "org.yaml.snakeyaml.composer", "org.yaml.snakeyaml.nodes", "org.yaml.snakeyaml.util", "org.yaml.snakeyaml.reader", "org.yaml.snakeyaml.resolver", "org.yaml.snakeyaml.error", "org.yaml.snakeyaml.events" ]
+  }, {
+    "groupId" : "org.apache.commons",
+    "artifactId" : "commons-lang3",
+    "version" : "3.5",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "org.apache.commons.lang3.builder", "org.apache.commons.lang3", "org.apache.commons.lang3.exception", "org.apache.commons.lang3.text.translate", "org.apache.commons.lang3.time", "org.apache.commons.lang3.text", "org.apache.commons.lang3.reflect", "org.apache.commons.lang3.event", "org.apache.commons.lang3.concurrent", "org.apache.commons.lang3.tuple", "org.apache.commons.lang3.mutable", "org.apache.commons.lang3.math" ]
+  }, {
+    "groupId" : "io.dropwizard",
+    "artifactId" : "dropwizard-logging",
+    "version" : "1.1.0-SNAPSHOT",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "io.dropwizard.logging.async", "io.dropwizard.logging", "io.dropwizard.logging.filter", "io.dropwizard.logging.layout" ]
+  }, {
+    "groupId" : "io.dropwizard.metrics",
+    "artifactId" : "metrics-logback",
+    "version" : "3.1.2",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "com.codahale.metrics.logback" ]
+  }, {
+    "groupId" : "org.slf4j",
+    "artifactId" : "jul-to-slf4j",
+    "version" : "1.7.22",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "org.slf4j.bridge" ]
+  }, {
+    "groupId" : "ch.qos.logback",
+    "artifactId" : "logback-core",
+    "version" : "1.1.8",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "ch.qos.logback.core.filter", "ch.qos.logback.core", "ch.qos.logback.core.sift", "ch.qos.logback.core.read", "ch.qos.logback.core.hook", "ch.qos.logback.core.joran.event.stax", "ch.qos.logback.core.net", "ch.qos.logback.core.html", "ch.qos.logback.core.joran.action", "ch.qos.logback.core.rolling", "ch.qos.logback.core.encoder", "ch.qos.logback.core.joran.util.beans", "ch.qos.logback.core.net.server", "ch.qos.logback.core.pattern.util", "ch.qos.logback.core.subst", "ch.qos.logback.core.spi", "ch.qos.logback.core.recovery", "ch.qos.logback.core.rolling.helper", "ch.qos.logback.core.net.ssl", "ch.qos.logback.core.helpers", "ch.qos.logback.core.util", "ch.qos.logback.core.db.dialect", "ch.qos.logback.core.pattern", "ch.qos.logback.core.db", "ch.qos.logback.core.layout", "ch.qos.logback.core.pattern.color", "ch.qos.logback.core.boolex", "ch.qos.logback.core.joran.conditional", "ch.qos.logback.core.status", "ch.qos.logback.core.joran.node", "ch.qos.logback.core.joran.event", "ch.qos.logback.core.pattern.parser", "ch.qos.logback.core.property", "ch.qos.logback.core.joran.util", "ch.qos.logback.core.joran", "ch.qos.logback.core.joran.spi" ]
+  }, {
+    "groupId" : "org.slf4j",
+    "artifactId" : "log4j-over-slf4j",
+    "version" : "1.7.22",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "org.apache.log4j.xml", "org.apache.log4j.helpers", "org.apache.log4j", "org.apache.log4j.spi" ]
+  }, {
+    "groupId" : "org.slf4j",
+    "artifactId" : "jcl-over-slf4j",
+    "version" : "1.7.22",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "org.apache.commons.logging", "org.apache.commons.logging.impl" ]
+  }, {
+    "groupId" : "org.eclipse.jetty",
+    "artifactId" : "jetty-util",
+    "version" : "9.4.1.v20170120",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "org.eclipse.jetty.util.thread", "org.eclipse.jetty.util.statistic", "org.eclipse.jetty.util.security", "org.eclipse.jetty.util.component", "org.eclipse.jetty.util.log", "org.eclipse.jetty.util", "org.eclipse.jetty.util.preventers", "org.eclipse.jetty.util.thread.strategy", "org.eclipse.jetty.util.resource", "org.eclipse.jetty.util.annotation", "org.eclipse.jetty.util.ssl" ]
+  }, {
+    "groupId" : "io.dropwizard",
+    "artifactId" : "dropwizard-metrics",
+    "version" : "1.1.0-SNAPSHOT",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "io.dropwizard.metrics" ]
+  }, {
+    "groupId" : "io.dropwizard",
+    "artifactId" : "dropwizard-jersey",
+    "version" : "1.1.0-SNAPSHOT",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "io.dropwizard.jersey", "io.dropwizard.jersey.gzip", "io.dropwizard.jersey.validation", "io.dropwizard.jersey.filter", "io.dropwizard.jersey.errors", "io.dropwizard.jersey.jackson", "io.dropwizard.jersey.caching", "io.dropwizard.jersey.optional", "io.dropwizard.jersey.jsr310", "io.dropwizard.jersey.params", "io.dropwizard.jersey.sessions", "io.dropwizard.jersey.setup", "io.dropwizard.jersey.guava" ]
+  }, {
+    "groupId" : "org.glassfish.jersey.ext",
+    "artifactId" : "jersey-metainf-services",
+    "version" : "2.25",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "org.glassfish.jersey.spidiscovery.internal" ]
+  }, {
+    "groupId" : "org.glassfish.jersey.ext",
+    "artifactId" : "jersey-bean-validation",
+    "version" : "2.25",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "org.glassfish.jersey.server.validation.internal", "org.glassfish.jersey.server.validation" ]
+  }, {
+    "groupId" : "javax.el",
+    "artifactId" : "javax.el-api",
+    "version" : "2.2.4",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "javax.el" ]
+  }, {
+    "groupId" : "org.glassfish.web",
+    "artifactId" : "javax.el",
+    "version" : "2.2.4",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "com.sun.el", "com.sun.el.parser", "com.sun.el.lang", "com.sun.el.util" ]
+  }, {
+    "groupId" : "io.dropwizard.metrics",
+    "artifactId" : "metrics-jersey2",
+    "version" : "3.1.2",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "com.codahale.metrics.jersey2" ]
+  }, {
+    "groupId" : "com.fasterxml.jackson.jaxrs",
+    "artifactId" : "jackson-jaxrs-json-provider",
+    "version" : "2.8.6",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "com.fasterxml.jackson.jaxrs.json.annotation", "com.fasterxml.jackson.jaxrs.json" ]
+  }, {
+    "groupId" : "com.fasterxml.jackson.jaxrs",
+    "artifactId" : "jackson-jaxrs-base",
+    "version" : "2.8.6",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "com.fasterxml.jackson.jaxrs.base", "com.fasterxml.jackson.jaxrs.base.nocontent", "com.fasterxml.jackson.jaxrs.annotation", "com.fasterxml.jackson.jaxrs.util", "com.fasterxml.jackson.jaxrs.cfg" ]
+  }, {
+    "groupId" : "com.fasterxml.jackson.module",
+    "artifactId" : "jackson-module-jaxb-annotations",
+    "version" : "2.8.6",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "com.fasterxml.jackson.module.jaxb.deser", "com.fasterxml.jackson.module.jaxb.ser", "com.fasterxml.jackson.module.jaxb" ]
+  }, {
+    "groupId" : "org.glassfish.jersey.containers",
+    "artifactId" : "jersey-container-servlet",
+    "version" : "2.25",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "org.glassfish.jersey.servlet.init", "org.glassfish.jersey.servlet.async", "org.glassfish.jersey.servlet.init.internal" ]
+  }, {
+    "groupId" : "org.eclipse.jetty",
+    "artifactId" : "jetty-server",
+    "version" : "9.4.1.v20170120",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "org.eclipse.jetty.server.session", "org.eclipse.jetty.server.handler.jmx", "org.eclipse.jetty.server", "org.eclipse.jetty.server.handler", "org.eclipse.jetty.server.handler.gzip", "org.eclipse.jetty.server.nio", "org.eclipse.jetty.server.jmx" ]
+  }, {
+    "groupId" : "javax.servlet",
+    "artifactId" : "javax.servlet-api",
+    "version" : "3.1.0",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "javax.servlet.annotation", "javax.servlet", "javax.servlet.http", "javax.servlet.descriptor" ]
+  }, {
+    "groupId" : "org.eclipse.jetty",
+    "artifactId" : "jetty-io",
+    "version" : "9.4.1.v20170120",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "org.eclipse.jetty.io", "org.eclipse.jetty.io.ssl" ]
+  }, {
+    "groupId" : "org.eclipse.jetty",
+    "artifactId" : "jetty-webapp",
+    "version" : "9.4.1.v20170120",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "org.eclipse.jetty.webapp" ]
+  }, {
+    "groupId" : "org.eclipse.jetty",
+    "artifactId" : "jetty-xml",
+    "version" : "9.4.1.v20170120",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "org.eclipse.jetty.xml" ]
+  }, {
+    "groupId" : "org.eclipse.jetty",
+    "artifactId" : "jetty-continuation",
+    "version" : "9.4.1.v20170120",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "org.eclipse.jetty.continuation" ]
+  }, {
+    "groupId" : "io.dropwizard",
+    "artifactId" : "dropwizard-servlets",
+    "version" : "1.1.0-SNAPSHOT",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "io.dropwizard.servlets.assets", "io.dropwizard.servlets", "io.dropwizard.servlets.tasks" ]
+  }, {
+    "groupId" : "io.dropwizard.metrics",
+    "artifactId" : "metrics-annotation",
+    "version" : "3.1.2",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "com.codahale.metrics.annotation" ]
+  }, {
+    "groupId" : "io.dropwizard",
+    "artifactId" : "dropwizard-jetty",
+    "version" : "1.1.0-SNAPSHOT",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "io.dropwizard.jetty.setup", "io.dropwizard.jetty" ]
+  }, {
+    "groupId" : "io.dropwizard.metrics",
+    "artifactId" : "metrics-jetty9",
+    "version" : "3.1.2",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "com.codahale.metrics.jetty9" ]
+  }, {
+    "groupId" : "org.eclipse.jetty",
+    "artifactId" : "jetty-servlet",
+    "version" : "9.4.1.v20170120",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "org.eclipse.jetty.servlet.listener", "org.eclipse.jetty.servlet", "org.eclipse.jetty.servlet.jmx" ]
+  }, {
+    "groupId" : "org.eclipse.jetty",
+    "artifactId" : "jetty-security",
+    "version" : "9.4.1.v20170120",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "org.eclipse.jetty.security", "org.eclipse.jetty.security.authentication" ]
+  }, {
+    "groupId" : "org.eclipse.jetty",
+    "artifactId" : "jetty-servlets",
+    "version" : "9.4.1.v20170120",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "org.eclipse.jetty.servlets" ]
+  }, {
+    "groupId" : "org.eclipse.jetty",
+    "artifactId" : "jetty-http",
+    "version" : "9.4.1.v20170120",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "org.eclipse.jetty.http.pathmap", "org.eclipse.jetty.http" ]
+  }, {
+    "groupId" : "io.dropwizard",
+    "artifactId" : "dropwizard-lifecycle",
+    "version" : "1.1.0-SNAPSHOT",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "io.dropwizard.lifecycle", "io.dropwizard.lifecycle.setup" ]
+  }, {
+    "groupId" : "io.dropwizard.metrics",
+    "artifactId" : "metrics-core",
+    "version" : "3.1.2",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "com.codahale.metrics" ]
+  }, {
+    "groupId" : "io.dropwizard.metrics",
+    "artifactId" : "metrics-jvm",
+    "version" : "3.1.2",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "com.codahale.metrics.jvm" ]
+  }, {
+    "groupId" : "io.dropwizard.metrics",
+    "artifactId" : "metrics-servlets",
+    "version" : "3.1.2",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "com.codahale.metrics.servlets" ]
+  }, {
+    "groupId" : "io.dropwizard.metrics",
+    "artifactId" : "metrics-json",
+    "version" : "3.1.2",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "com.codahale.metrics.json" ]
+  }, {
+    "groupId" : "io.dropwizard.metrics",
+    "artifactId" : "metrics-healthchecks",
+    "version" : "3.1.2",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "com.codahale.metrics.health.jvm", "com.codahale.metrics.health" ]
+  }, {
+    "groupId" : "io.dropwizard",
+    "artifactId" : "dropwizard-request-logging",
+    "version" : "1.1.0-SNAPSHOT",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "io.dropwizard.request.logging.old", "io.dropwizard.request.logging", "io.dropwizard.request.logging.async", "io.dropwizard.request.logging.layout" ]
+  }, {
+    "groupId" : "ch.qos.logback",
+    "artifactId" : "logback-access",
+    "version" : "1.1.8",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "ch.qos.logback.access.boolex", "ch.qos.logback.access.db", "ch.qos.logback.access.filter", "ch.qos.logback.access.sift", "ch.qos.logback.access.servlet", "ch.qos.logback.access.joran", "ch.qos.logback.access.spi", "ch.qos.logback.access.joran.action", "ch.qos.logback.access", "ch.qos.logback.access.pattern", "ch.qos.logback.access.html", "ch.qos.logback.access.jetty", "ch.qos.logback.access.net", "ch.qos.logback.access.net.server", "ch.qos.logback.access.tomcat" ]
+  }, {
+    "groupId" : "net.sourceforge.argparse4j",
+    "artifactId" : "argparse4j",
+    "version" : "0.7.0",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "net.sourceforge.argparse4j", "net.sourceforge.argparse4j.impl.type", "net.sourceforge.argparse4j.impl.choice", "net.sourceforge.argparse4j.annotation", "net.sourceforge.argparse4j.internal", "net.sourceforge.argparse4j.impl.action", "net.sourceforge.argparse4j.inf", "net.sourceforge.argparse4j.helper", "net.sourceforge.argparse4j.impl" ]
+  }, {
+    "groupId" : "org.eclipse.jetty.toolchain.setuid",
+    "artifactId" : "jetty-setuid-java",
+    "version" : "1.0.3",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "org.eclipse.jetty.setuid" ]
+  }, {
     "groupId" : "com.github.spullara.mustache.java",
     "artifactId" : "compiler",
     "version" : "0.9.4",
@@ -30,6 +499,125 @@
     "systemPath" : null,
     "packages" : [ "org.glassfish.jersey.test.inmemory" ]
   }, {
+    "groupId" : "org.glassfish.jersey.test-framework",
+    "artifactId" : "jersey-test-framework-core",
+    "version" : "2.25",
+    "scope" : "test",
+    "systemPath" : null,
+    "packages" : [ "org.glassfish.jersey.test.spi", "org.glassfish.jersey.test" ]
+  }, {
+    "groupId" : "org.glassfish.jersey.containers",
+    "artifactId" : "jersey-container-servlet-core",
+    "version" : "2.25",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "org.glassfish.jersey.servlet.spi", "org.glassfish.jersey.servlet.internal", "org.glassfish.jersey.servlet", "org.glassfish.jersey.servlet.internal.spi" ]
+  }, {
+    "groupId" : "org.glassfish.jersey.core",
+    "artifactId" : "jersey-server",
+    "version" : "2.25",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "org.glassfish.jersey.server.filter", "org.glassfish.jersey.server.wadl.internal.generators.resourcedoc", "org.glassfish.jersey.server.wadl", "org.glassfish.jersey.server.internal", "org.glassfish.jersey.server.internal.process", "org.glassfish.jersey.server.spi", "org.glassfish.jersey.server.wadl.config", "org.glassfish.jersey.server.wadl.internal.generators.resourcedoc.xhtml", "org.glassfish.jersey.server", "jersey.repackaged.org.objectweb.asm", "org.glassfish.jersey.server.internal.inject", "org.glassfish.jersey.server.model.internal", "org.glassfish.jersey.server.internal.sonar", "org.glassfish.jersey.server.internal.scanning", "org.glassfish.jersey.server.internal.routing", "org.glassfish.jersey.server.wadl.internal.generators", "org.glassfish.jersey.server.filter.internal", "org.glassfish.jersey.server.spi.internal", "org.glassfish.jersey.server.wadl.internal.generators.resourcedoc.model", "org.glassfish.jersey.server.monitoring", "org.glassfish.jersey.server.wadl.processor", "com.sun.research.ws.wadl", "org.glassfish.jersey.server.model", "org.glassfish.jersey.server.wadl.internal", "org.glassfish.jersey.server.internal.monitoring.jmx", "org.glassfish.jersey.server.internal.monitoring" ]
+  }, {
+    "groupId" : "org.glassfish.jersey.core",
+    "artifactId" : "jersey-common",
+    "version" : "2.25",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "org.glassfish.jersey.internal.spi", "org.glassfish.jersey.internal.util.collection", "org.glassfish.jersey.logging", "org.glassfish.jersey", "org.glassfish.jersey.message", "org.glassfish.jersey.internal.sonar", "org.glassfish.jersey.model.internal", "org.glassfish.jersey.process.internal", "org.glassfish.jersey.spi", "org.glassfish.jersey.uri", "org.glassfish.jersey.process", "org.glassfish.jersey.filter", "org.glassfish.jersey.internal.inject", "org.glassfish.jersey.message.internal", "org.glassfish.jersey.internal.l10n", "org.glassfish.jersey.uri.internal", "org.glassfish.jersey.internal", "org.glassfish.jersey.internal.util", "org.glassfish.jersey.model" ]
+  }, {
+    "groupId" : "org.glassfish.jersey.bundles.repackaged",
+    "artifactId" : "jersey-guava",
+    "version" : "2.25",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "jersey.repackaged.com.google.common.hash", "jersey.repackaged.com.google.common.io", "jersey.repackaged.com.google.common.primitives", "jersey.repackaged.com.google.common.cache", "jersey.repackaged.com.google.common.util.concurrent", "jersey.repackaged.com.google.common.collect", "jersey.repackaged.com.google.common.math", "jersey.repackaged.com.google.common.base", "jersey.repackaged.com.google.common.net" ]
+  }, {
+    "groupId" : "org.glassfish.hk2",
+    "artifactId" : "osgi-resource-locator",
+    "version" : "1.0.1",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "org.glassfish.hk2.osgiresourcelocator" ]
+  }, {
+    "groupId" : "javax.ws.rs",
+    "artifactId" : "javax.ws.rs-api",
+    "version" : "2.0.1",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "javax.ws.rs", "javax.ws.rs.client", "javax.ws.rs.ext", "javax.ws.rs.container", "javax.ws.rs.core" ]
+  }, {
+    "groupId" : "org.glassfish.jersey.media",
+    "artifactId" : "jersey-media-jaxb",
+    "version" : "2.25",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "org.glassfish.jersey.jaxb.internal" ]
+  }, {
+    "groupId" : "javax.annotation",
+    "artifactId" : "javax.annotation-api",
+    "version" : "1.2",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "javax.annotation", "javax.annotation.security", "javax.annotation.sql" ]
+  }, {
+    "groupId" : "org.glassfish.hk2",
+    "artifactId" : "hk2-api",
+    "version" : "2.5.0-b30",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "org.glassfish.hk2.api", "org.glassfish.hk2.utilities.binding", "org.glassfish.hk2.utilities", "org.glassfish.hk2.extension", "org.glassfish.hk2.api.messaging", "org.jvnet.hk2.annotations", "org.glassfish.hk2.internal" ]
+  }, {
+    "groupId" : "org.glassfish.hk2",
+    "artifactId" : "hk2-utils",
+    "version" : "2.5.0-b30",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "org.glassfish.hk2.utilities.cache", "org.glassfish.hk2.utilities.reflection.internal", "org.glassfish.hk2.utilities.general.internal", "org.jvnet.tiger_types", "org.jvnet.hk2.component", "org.glassfish.hk2.utilities.reflection", "org.glassfish.hk2.utilities.general", "org.glassfish.hk2.utilities.cache.internal" ]
+  }, {
+    "groupId" : "org.glassfish.hk2.external",
+    "artifactId" : "aopalliance-repackaged",
+    "version" : "2.5.0-b30",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "org.aopalliance.aop", "org.aopalliance.instrument", "org.aopalliance.reflect", "org.aopalliance.intercept" ]
+  }, {
+    "groupId" : "org.glassfish.hk2.external",
+    "artifactId" : "javax.inject",
+    "version" : "2.5.0-b30",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "javax.inject" ]
+  }, {
+    "groupId" : "org.glassfish.hk2",
+    "artifactId" : "hk2-locator",
+    "version" : "2.5.0-b30",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "org.jvnet.hk2.external.runtime", "org.jvnet.hk2.internal", "org.jvnet.hk2.external.generator" ]
+  }, {
+    "groupId" : "org.javassist",
+    "artifactId" : "javassist",
+    "version" : "3.21.0-GA",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "javassist.convert", "javassist.tools", "javassist.tools.reflect", "javassist.expr", "javassist.tools.rmi", "javassist.util", "javassist.bytecode.analysis", "javassist.bytecode.annotation", "javassist.bytecode.stackmap", "javassist.util.proxy", "javassist.compiler", "javassist.runtime", "javassist.bytecode", "javassist.scopedpool", "javassist.compiler.ast", "javassist", "javassist.tools.web" ]
+  }, {
+    "groupId" : "javax.validation",
+    "artifactId" : "validation-api",
+    "version" : "1.1.0.Final",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "javax.validation.spi", "javax.validation.bootstrap", "javax.validation.constraints", "javax.validation.metadata", "javax.validation.executable", "javax.validation.groups", "javax.validation", "javax.validation.constraintvalidation" ]
+  }, {
+    "groupId" : "org.glassfish.jersey.core",
+    "artifactId" : "jersey-client",
+    "version" : "2.25",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "org.glassfish.jersey.client.spi", "org.glassfish.jersey.client.authentication", "org.glassfish.jersey.client.internal", "org.glassfish.jersey.client", "org.glassfish.jersey.client.filter" ]
+  }, {
     "groupId" : "junit",
     "artifactId" : "junit",
     "version" : "4.12",
@@ -37,12 +625,40 @@
     "systemPath" : null,
     "packages" : [ "org.junit.runners", "org.junit.experimental.theories", "org.junit.experimental", "org.junit.internal.runners.rules", "org.junit.internal.requests", "org.junit.experimental.results", "org.junit.internal.runners.model", "org.junit.internal.builders", "junit.textui", "org.junit.experimental.categories", "org.junit.experimental.theories.internal", "org.junit.runners.parameterized", "junit.extensions", "org.junit.internal.runners.statements", "org.junit.experimental.max", "org.junit.runner.notification", "org.junit.matchers", "org.junit.experimental.theories.suppliers", "org.junit.runner.manipulation", "org.junit.internal.matchers", "org.junit.rules", "org.junit.experimental.runners", "org.junit.runners.model", "org.junit.internal", "junit.runner", "org.junit.runner", "org.junit", "org.junit.validator", "org.junit.internal.runners", "junit.framework" ]
   }, {
+    "groupId" : "org.hamcrest",
+    "artifactId" : "hamcrest-core",
+    "version" : "1.3",
+    "scope" : "test",
+    "systemPath" : null,
+    "packages" : [ "org.hamcrest.internal", "org.hamcrest.core", "org.hamcrest" ]
+  }, {
     "groupId" : "org.mockito",
     "artifactId" : "mockito-core",
     "version" : "2.6.1",
     "scope" : "test",
     "systemPath" : null,
     "packages" : [ "org.mockito.internal.exceptions.stacktrace", "org.mockito.internal.verification.api", "org.mockito.internal.configuration.injection.scanner", "org.mockito.internal.matchers", "org.mockito.hamcrest", "org.mockito.internal.verification.checkers", "org.mockito.quality", "org.mockito.internal.creation", "org.mockito.internal.creation.instance", "org.mockito.internal.stubbing", "org.mockito.internal.framework", "org.mockito.listeners", "org.mockito.internal.invocation", "org.mockito.invocation", "org.mockito.internal.util.collections", "org.mockito", "org.mockito.internal.stubbing.answers", "org.mockito.internal.configuration.injection.filter", "org.mockito.internal.configuration.plugins", "org.mockito.runners", "org.mockito.internal.configuration.injection", "org.mockito.stubbing", "org.mockito.internal.verification.argumentmatching", "org.mockito.internal.util.concurrent", "org.mockito.internal.junit", "org.mockito.exceptions.verification", "org.mockito.internal.creation.settings", "org.mockito.internal.verification", "org.mockito.internal.util.reflection", "org.mockito.mock", "org.mockito.internal.progress", "org.mockito.internal.hamcrest", "org.mockito.internal.creation.bytebuddy", "org.mockito.internal", "org.mockito.internal.runners", "org.mockito.internal.util.io", "org.mockito.verification", "org.mockito.internal.reporting", "org.mockito.plugins", "org.mockito.exceptions.stacktrace", "org.mockito.exceptions.base", "org.mockito.internal.util", "org.mockito.internal.creation.util", "org.mockito.exceptions.verification.junit", "org.mockito.internal.exceptions", "org.mockito.exceptions.misusing", "org.mockito.internal.exceptions.util", "org.mockito.internal.handler", "org.mockito.internal.matchers.apachecommons", "org.mockito.internal.runners.util", "org.mockito.configuration", "org.mockito.internal.listeners", "org.mockito.internal.configuration", "org.mockito.internal.invocation.finder", "org.mockito.internal.stubbing.defaultanswers", "org.mockito.internal.matchers.text", "org.mockito.internal.invocation.realmethod", "org.mockito.junit", "org.mockito.internal.debugging", "org.mockito.internal.junit.util" ]
+  }, {
+    "groupId" : "net.bytebuddy",
+    "artifactId" : "byte-buddy",
+    "version" : "1.6.2",
+    "scope" : "test",
+    "systemPath" : null,
+    "packages" : [ "net.bytebuddy.description.modifier", "net.bytebuddy.asm", "net.bytebuddy.implementation.bind", "net.bytebuddy.jar.asm.commons", "net.bytebuddy.dynamic", "net.bytebuddy.implementation.bind.annotation", "net.bytebuddy.dynamic.scaffold", "net.bytebuddy.dynamic.scaffold.subclass", "net.bytebuddy.implementation.auxiliary", "net.bytebuddy.implementation.bytecode.constant", "net.bytebuddy.build", "net.bytebuddy.jar.asm.signature", "net.bytebuddy.utility", "net.bytebuddy.implementation", "net.bytebuddy.matcher", "net.bytebuddy.implementation.bytecode", "net.bytebuddy.description.enumeration", "net.bytebuddy.implementation.bytecode.assign", "net.bytebuddy.description.type", "net.bytebuddy.dynamic.scaffold.inline", "net.bytebuddy.implementation.bytecode.assign.primitive", "net.bytebuddy.description.annotation", "net.bytebuddy.utility.privilege", "net.bytebuddy.description.method", "net.bytebuddy.utility.visitor", "net.bytebuddy.jar.asm", "net.bytebuddy.implementation.attribute", "net.bytebuddy.dynamic.loading", "net.bytebuddy.implementation.bytecode.assign.reference", "net.bytebuddy", "net.bytebuddy.description.field", "net.bytebuddy.pool", "net.bytebuddy.agent.builder", "net.bytebuddy.implementation.bytecode.collection", "net.bytebuddy.description", "net.bytebuddy.implementation.bytecode.member" ]
+  }, {
+    "groupId" : "net.bytebuddy",
+    "artifactId" : "byte-buddy-agent",
+    "version" : "1.6.2",
+    "scope" : "test",
+    "systemPath" : null,
+    "packages" : [ "net.bytebuddy.agent" ]
+  }, {
+    "groupId" : "org.objenesis",
+    "artifactId" : "objenesis",
+    "version" : "2.4",
+    "scope" : "test",
+    "systemPath" : null,
+    "packages" : [ "org.objenesis.instantiator.android", "org.objenesis", "org.objenesis.instantiator", "org.objenesis.strategy", "org.objenesis.instantiator.sun", "org.objenesis.instantiator.basic", "org.objenesis.instantiator.gcj", "org.objenesis.instantiator.perc" ]
   }, {
     "groupId" : "org.assertj",
     "artifactId" : "assertj-core",
