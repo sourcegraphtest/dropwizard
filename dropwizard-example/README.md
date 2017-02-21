@@ -29,17 +29,17 @@ As with all the modules the db example is wired up in the `initialize` function 
 
 To test the example application run the following commands.
 
-* To package the example run.
+* To package the example run the following from the root dropwizard directory.
 
         mvn package
 
 * To setup the h2 database run.
 
-        java -jar target/dropwizard-example-1.1.0-SNAPSHOT.jar db migrate example.yml
+        java -jar target/dropwizard-example-1.2.0-SNAPSHOT.jar db migrate example.yml
 
 * To run the server run.
 
-        java -jar target/dropwizard-example-1.1.0-SNAPSHOT.jar server example.yml
+        java -jar target/dropwizard-example-1.2.0-SNAPSHOT.jar server example.yml
 
 * To hit the Hello World example (hit refresh a few times).
 
