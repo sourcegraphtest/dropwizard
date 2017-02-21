@@ -11,21 +11,21 @@
   "dependencies" : [ {
     "groupId" : "io.dropwizard",
     "artifactId" : "dropwizard-db",
-    "version" : "1.1.0-SNAPSHOT",
+    "version" : "1.2.0-SNAPSHOT",
     "scope" : "compile",
     "systemPath" : null,
     "packages" : [ "io.dropwizard.db" ]
   }, {
     "groupId" : "io.dropwizard",
     "artifactId" : "dropwizard-core",
-    "version" : "1.1.0-SNAPSHOT",
+    "version" : "1.2.0-SNAPSHOT",
     "scope" : "compile",
     "systemPath" : null,
     "packages" : [ "io.dropwizard", "io.dropwizard.server", "io.dropwizard.sslreload", "io.dropwizard.setup", "io.dropwizard.cli" ]
   }, {
     "groupId" : "io.dropwizard",
     "artifactId" : "dropwizard-util",
-    "version" : "1.1.0-SNAPSHOT",
+    "version" : "1.2.0-SNAPSHOT",
     "scope" : "compile",
     "systemPath" : null,
     "packages" : [ "io.dropwizard.util" ]
@@ -53,7 +53,7 @@
   }, {
     "groupId" : "io.dropwizard",
     "artifactId" : "dropwizard-jackson",
-    "version" : "1.1.0-SNAPSHOT",
+    "version" : "1.2.0-SNAPSHOT",
     "scope" : "compile",
     "systemPath" : null,
     "packages" : [ "io.dropwizard.jackson" ]
@@ -80,6 +80,13 @@
     "packages" : [ "com.fasterxml.jackson.datatype.jdk8" ]
   }, {
     "groupId" : "com.fasterxml.jackson.module",
+    "artifactId" : "jackson-module-parameter-names",
+    "version" : "2.8.6",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "com.fasterxml.jackson.module.paramnames" ]
+  }, {
+    "groupId" : "com.fasterxml.jackson.module",
     "artifactId" : "jackson-module-afterburner",
     "version" : "2.8.6",
     "scope" : "compile",
@@ -102,14 +109,14 @@
   }, {
     "groupId" : "ch.qos.logback",
     "artifactId" : "logback-classic",
-    "version" : "1.1.8",
+    "version" : "1.2.1",
     "scope" : "compile",
     "systemPath" : null,
-    "packages" : [ "ch.qos.logback.classic.db.names", "ch.qos.logback.classic.pattern.color", "ch.qos.logback.classic.spi", "ch.qos.logback.classic.html", "ch.qos.logback.classic.selector.servlet", "ch.qos.logback.classic.joran", "ch.qos.logback.classic.helpers", "ch.qos.logback.classic.layout", "ch.qos.logback.classic.boolex", "ch.qos.logback.classic.joran.action", "ch.qos.logback.classic.pattern", "ch.qos.logback.classic.turbo", "ch.qos.logback.classic.db", "ch.qos.logback.classic.sift", "ch.qos.logback.classic.gaffer", "ch.qos.logback.classic.net.server", "org.slf4j.impl", "ch.qos.logback.classic.log4j", "ch.qos.logback.classic.filter", "ch.qos.logback.classic.jul", "ch.qos.logback.classic.selector", "ch.qos.logback.classic.encoder", "ch.qos.logback.classic.util", "ch.qos.logback.classic", "ch.qos.logback.classic.net", "ch.qos.logback.classic.jmx" ]
+    "packages" : [ "ch.qos.logback.classic.db.names", "ch.qos.logback.classic.pattern.color", "ch.qos.logback.classic.spi", "ch.qos.logback.classic.html", "ch.qos.logback.classic.selector.servlet", "ch.qos.logback.classic.joran", "ch.qos.logback.classic.helpers", "ch.qos.logback.classic.layout", "ch.qos.logback.classic.boolex", "ch.qos.logback.classic.servlet", "ch.qos.logback.classic.joran.action", "ch.qos.logback.classic.pattern", "ch.qos.logback.classic.turbo", "ch.qos.logback.classic.db", "ch.qos.logback.classic.sift", "ch.qos.logback.classic.gaffer", "ch.qos.logback.classic.net.server", "org.slf4j.impl", "ch.qos.logback.classic.log4j", "ch.qos.logback.classic.filter", "ch.qos.logback.classic.jul", "ch.qos.logback.classic.selector", "ch.qos.logback.classic.encoder", "ch.qos.logback.classic.util", "ch.qos.logback.classic", "ch.qos.logback.classic.net", "ch.qos.logback.classic.jmx" ]
   }, {
     "groupId" : "io.dropwizard",
     "artifactId" : "dropwizard-validation",
-    "version" : "1.1.0-SNAPSHOT",
+    "version" : "1.2.0-SNAPSHOT",
     "scope" : "compile",
     "systemPath" : null,
     "packages" : [ "io.dropwizard.validation.valuehandling", "io.dropwizard.validation" ]
@@ -121,13 +128,6 @@
     "systemPath" : null,
     "packages" : [ "org.hibernate.validator.internal.constraintvalidators.bv.past", "org.hibernate.validator.spi.cfg", "org.hibernate.validator.internal.engine.messageinterpolation.el", "org.hibernate.validator.constraintvalidation", "org.hibernate.validator.internal.metadata.descriptor", "org.hibernate.validator.internal.engine.constraintvalidation", "org.hibernate.validator.internal.constraintvalidators.hv.br", "org.hibernate.validator", "org.hibernate.validator.constraints", "org.hibernate.validator.path", "org.hibernate.validator.constraintvalidators", "org.hibernate.validator.internal.engine.groups", "org.hibernate.validator.internal.util.classhierarchy", "org.hibernate.validator.internal.metadata.facets", "org.hibernate.validator.spi.resourceloading", "org.hibernate.validator.internal.metadata", "org.hibernate.validator.internal.metadata.raw", "org.hibernate.validator.internal.util.scriptengine", "org.hibernate.validator.internal.cfg.context", "org.hibernate.validator.internal.metadata.location", "org.hibernate.validator.parameternameprovider", "org.hibernate.validator.constraints.br", "org.hibernate.validator.internal.engine.path", "org.hibernate.validator.internal.constraintvalidators.hv", "org.hibernate.validator.internal.util.privilegedactions", "org.hibernate.validator.internal.metadata.provider", "org.hibernate.validator.internal.xml", "org.hibernate.validator.internal.constraintvalidators.bv.future", "org.hibernate.validator.internal.engine.resolver", "org.hibernate.validator.group", "org.hibernate.validator.resourceloading", "org.hibernate.validator.spi.group", "org.hibernate.validator.valuehandling", "org.hibernate.validator.internal.engine.constraintdefinition", "org.hibernate.validator.cfg", "org.hibernate.validator.internal.engine.time", "org.hibernate.validator.internal.metadata.aggregated", "org.hibernate.validator.internal.constraintvalidators.bv", "org.hibernate.validator.internal.util.logging", "org.hibernate.validator.engine", "org.hibernate.validator.internal.engine", "org.hibernate.validator.internal.metadata.aggregated.rule", "org.hibernate.validator.internal.engine.messageinterpolation", "org.hibernate.validator.internal.engine.valuehandling", "org.hibernate.validator.messageinterpolation", "org.hibernate.validator.cfg.context", "org.hibernate.validator.internal.constraintvalidators.bv.size", "org.hibernate.validator.internal.engine.messageinterpolation.parser", "org.hibernate.validator.internal.metadata.core", "org.hibernate.validator.internal.util.annotationfactory", "org.hibernate.validator.spi.valuehandling", "org.hibernate.validator.internal.util", "org.hibernate.validator.spi.time", "org.hibernate.validator.cfg.defs" ]
   }, {
-    "groupId" : "org.jboss.logging",
-    "artifactId" : "jboss-logging",
-    "version" : "3.3.0.Final",
-    "scope" : "compile",
-    "systemPath" : null,
-    "packages" : [ "org.jboss.logging" ]
-  }, {
     "groupId" : "org.glassfish",
     "artifactId" : "javax.el",
     "version" : "3.0.0",
@@ -137,7 +137,7 @@
   }, {
     "groupId" : "io.dropwizard",
     "artifactId" : "dropwizard-configuration",
-    "version" : "1.1.0-SNAPSHOT",
+    "version" : "1.2.0-SNAPSHOT",
     "scope" : "compile",
     "systemPath" : null,
     "packages" : [ "io.dropwizard.configuration" ]
@@ -165,7 +165,7 @@
   }, {
     "groupId" : "io.dropwizard",
     "artifactId" : "dropwizard-logging",
-    "version" : "1.1.0-SNAPSHOT",
+    "version" : "1.2.0-SNAPSHOT",
     "scope" : "compile",
     "systemPath" : null,
     "packages" : [ "io.dropwizard.logging.async", "io.dropwizard.logging", "io.dropwizard.logging.filter", "io.dropwizard.logging.layout" ]
@@ -186,7 +186,7 @@
   }, {
     "groupId" : "ch.qos.logback",
     "artifactId" : "logback-core",
-    "version" : "1.1.8",
+    "version" : "1.2.1",
     "scope" : "compile",
     "systemPath" : null,
     "packages" : [ "ch.qos.logback.core.filter", "ch.qos.logback.core", "ch.qos.logback.core.sift", "ch.qos.logback.core.read", "ch.qos.logback.core.hook", "ch.qos.logback.core.joran.event.stax", "ch.qos.logback.core.net", "ch.qos.logback.core.html", "ch.qos.logback.core.joran.action", "ch.qos.logback.core.rolling", "ch.qos.logback.core.encoder", "ch.qos.logback.core.joran.util.beans", "ch.qos.logback.core.net.server", "ch.qos.logback.core.pattern.util", "ch.qos.logback.core.subst", "ch.qos.logback.core.spi", "ch.qos.logback.core.recovery", "ch.qos.logback.core.rolling.helper", "ch.qos.logback.core.net.ssl", "ch.qos.logback.core.helpers", "ch.qos.logback.core.util", "ch.qos.logback.core.db.dialect", "ch.qos.logback.core.pattern", "ch.qos.logback.core.db", "ch.qos.logback.core.layout", "ch.qos.logback.core.pattern.color", "ch.qos.logback.core.boolex", "ch.qos.logback.core.joran.conditional", "ch.qos.logback.core.status", "ch.qos.logback.core.joran.node", "ch.qos.logback.core.joran.event", "ch.qos.logback.core.pattern.parser", "ch.qos.logback.core.property", "ch.qos.logback.core.joran.util", "ch.qos.logback.core.joran", "ch.qos.logback.core.joran.spi" ]
@@ -214,28 +214,28 @@
   }, {
     "groupId" : "io.dropwizard",
     "artifactId" : "dropwizard-metrics",
-    "version" : "1.1.0-SNAPSHOT",
+    "version" : "1.2.0-SNAPSHOT",
     "scope" : "compile",
     "systemPath" : null,
     "packages" : [ "io.dropwizard.metrics" ]
   }, {
     "groupId" : "io.dropwizard",
     "artifactId" : "dropwizard-jersey",
-    "version" : "1.1.0-SNAPSHOT",
+    "version" : "1.2.0-SNAPSHOT",
     "scope" : "compile",
     "systemPath" : null,
-    "packages" : [ "io.dropwizard.jersey", "io.dropwizard.jersey.gzip", "io.dropwizard.jersey.validation", "io.dropwizard.jersey.filter", "io.dropwizard.jersey.errors", "io.dropwizard.jersey.jackson", "io.dropwizard.jersey.caching", "io.dropwizard.jersey.optional", "io.dropwizard.jersey.jsr310", "io.dropwizard.jersey.params", "io.dropwizard.jersey.sessions", "io.dropwizard.jersey.setup", "io.dropwizard.jersey.guava" ]
+    "packages" : [ "io.dropwizard.jersey", "io.dropwizard.jersey.gzip", "io.dropwizard.jersey.validation", "io.dropwizard.jersey.filter", "io.dropwizard.jersey.errors", "io.dropwizard.jersey.jackson", "io.dropwizard.jersey.caching", "io.dropwizard.jersey.jsr310", "io.dropwizard.jersey.optional", "io.dropwizard.jersey.params", "io.dropwizard.jersey.sessions", "io.dropwizard.jersey.setup", "io.dropwizard.jersey.guava" ]
   }, {
     "groupId" : "org.glassfish.jersey.ext",
     "artifactId" : "jersey-metainf-services",
-    "version" : "2.25",
+    "version" : "2.25.1",
     "scope" : "compile",
     "systemPath" : null,
     "packages" : [ "org.glassfish.jersey.spidiscovery.internal" ]
   }, {
     "groupId" : "org.glassfish.jersey.ext",
     "artifactId" : "jersey-bean-validation",
-    "version" : "2.25",
+    "version" : "2.25.1",
     "scope" : "compile",
     "systemPath" : null,
     "packages" : [ "org.glassfish.jersey.server.validation.internal", "org.glassfish.jersey.server.validation" ]
@@ -284,7 +284,7 @@
   }, {
     "groupId" : "org.glassfish.jersey.containers",
     "artifactId" : "jersey-container-servlet",
-    "version" : "2.25",
+    "version" : "2.25.1",
     "scope" : "compile",
     "systemPath" : null,
     "packages" : [ "org.glassfish.jersey.servlet.init", "org.glassfish.jersey.servlet.async", "org.glassfish.jersey.servlet.init.internal" ]
@@ -333,7 +333,7 @@
   }, {
     "groupId" : "io.dropwizard",
     "artifactId" : "dropwizard-servlets",
-    "version" : "1.1.0-SNAPSHOT",
+    "version" : "1.2.0-SNAPSHOT",
     "scope" : "compile",
     "systemPath" : null,
     "packages" : [ "io.dropwizard.servlets.assets", "io.dropwizard.servlets", "io.dropwizard.servlets.tasks" ]
@@ -347,7 +347,7 @@
   }, {
     "groupId" : "io.dropwizard",
     "artifactId" : "dropwizard-jetty",
-    "version" : "1.1.0-SNAPSHOT",
+    "version" : "1.2.0-SNAPSHOT",
     "scope" : "compile",
     "systemPath" : null,
     "packages" : [ "io.dropwizard.jetty.setup", "io.dropwizard.jetty" ]
@@ -389,7 +389,7 @@
   }, {
     "groupId" : "io.dropwizard",
     "artifactId" : "dropwizard-lifecycle",
-    "version" : "1.1.0-SNAPSHOT",
+    "version" : "1.2.0-SNAPSHOT",
     "scope" : "compile",
     "systemPath" : null,
     "packages" : [ "io.dropwizard.lifecycle", "io.dropwizard.lifecycle.setup" ]
@@ -431,14 +431,14 @@
   }, {
     "groupId" : "io.dropwizard",
     "artifactId" : "dropwizard-request-logging",
-    "version" : "1.1.0-SNAPSHOT",
+    "version" : "1.2.0-SNAPSHOT",
     "scope" : "compile",
     "systemPath" : null,
     "packages" : [ "io.dropwizard.request.logging.old", "io.dropwizard.request.logging", "io.dropwizard.request.logging.async", "io.dropwizard.request.logging.layout" ]
   }, {
     "groupId" : "ch.qos.logback",
     "artifactId" : "logback-access",
-    "version" : "1.1.8",
+    "version" : "1.2.1",
     "scope" : "compile",
     "systemPath" : null,
     "packages" : [ "ch.qos.logback.access.boolex", "ch.qos.logback.access.db", "ch.qos.logback.access.filter", "ch.qos.logback.access.sift", "ch.qos.logback.access.servlet", "ch.qos.logback.access.joran", "ch.qos.logback.access.spi", "ch.qos.logback.access.joran.action", "ch.qos.logback.access", "ch.qos.logback.access.pattern", "ch.qos.logback.access.html", "ch.qos.logback.access.jetty", "ch.qos.logback.access.net", "ch.qos.logback.access.net.server", "ch.qos.logback.access.tomcat" ]
@@ -508,24 +508,38 @@
   }, {
     "groupId" : "org.jadira.usertype",
     "artifactId" : "usertype.core",
-    "version" : "5.0.0.GA",
+    "version" : "6.0.1.GA",
     "scope" : "compile",
     "systemPath" : null,
-    "packages" : [ "org.jadira.usertype.moneyandcurrency.joda", "org.jadira.usertype.country.columnmapper", "org.jadira.usertype.corejava", "org.jadira.usertype.country", "org.jadira.usertype.dateandtime.threetenbp.columnmapper", "org.jadira.usertype.moneyandcurrency.legacyjdk.columnmapper", "org.jadira.usertype.dateandtime.joda.integrator", "org.jadira.usertype.moneyandcurrency.joda.integrator", "org.jadira.usertype.moneyandcurrency.legacyjdk.integrator", "org.jadira.usertype.phonenumber", "org.jadira.usertype.dateandtime.threetenbp.integrator", "org.jadira.usertype.moneyandcurrency.legacyjdk", "org.jadira.usertype.phonenumber.columnmapper", "org.jadira.usertype.bindings", "org.jadira.usertype.dateandtime.legacyjdk", "org.jadira.usertype.dateandtime.threetenbp.utils", "org.jadira.usertype.dateandtime.threetenbp", "org.jadira.usertype.moneyandcurrency.joda.columnmapper", "org.jadira.usertype.dateandtime.legacyjdk.columnmapper", "org.jadira.usertype.dateandtime.joda", "org.jadira.usertype.dateandtime.joda.columnmapper", "org.jadira.usertype.moneyandcurrency.joda.util", "org.jadira.usertype.dateandtime.joda.util" ]
+    "packages" : [ "org.jadira.usertype.dateandtime.threeten", "org.jadira.usertype.moneyandcurrency.joda", "org.jadira.usertype.corejava.collections", "org.jadira.usertype.country.columnmapper", "org.jadira.usertype.country", "org.jadira.usertype.moneyandcurrency.moneta.util", "org.jadira.usertype.dateandtime.threetenbp.columnmapper", "org.jadira.usertype.moneyandcurrency.legacyjdk.columnmapper", "org.jadira.usertype.dateandtime.joda.integrator", "org.jadira.usertype.dateandtime.threeten.columnmapper", "org.jadira.usertype.moneyandcurrency.legacyjdk", "org.jadira.usertype.moneyandcurrency.moneta.columnmapper", "org.jadira.usertype.phonenumber.columnmapper", "org.jadira.usertype.bindings", "org.jadira.usertype.dateandtime.threeten.utils", "org.jadira.usertype.dateandtime.threetenbp.utils", "org.jadira.usertype.dateandtime.threetenbp", "org.jadira.usertype.dateandtime.legacyjdk.columnmapper", "org.jadira.usertype.dateandtime.joda", "org.jadira.usertype.moneyandcurrency.joda.util", "org.jadira.usertype.moneyandcurrency.moneta.integrator", "org.jadira.usertype.moneyandcurrency.joda.integrator", "org.jadira.usertype.moneyandcurrency.legacyjdk.integrator", "org.jadira.usertype.phonenumber", "org.jadira.usertype.dateandtime.threetenbp.integrator", "org.jadira.usertype.corejava.enumerated", "org.jadira.usertype.moneyandcurrency.moneta", "org.jadira.usertype.dateandtime.legacyjdk", "org.jadira.usertype.moneyandcurrency.joda.columnmapper", "org.jadira.usertype.json.jackson", "org.jadira.usertype.dateandtime.joda.columnmapper", "org.jadira.usertype.dateandtime.joda.util", "org.jadira.usertype.dateandtime.threeten.integrator" ]
+  }, {
+    "groupId" : "org.hibernate",
+    "artifactId" : "hibernate-entitymanager",
+    "version" : "5.2.1.Final",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ ]
+  }, {
+    "groupId" : "org.jboss.logging",
+    "artifactId" : "jboss-logging",
+    "version" : "3.3.0.Final",
+    "scope" : "compile",
+    "systemPath" : null,
+    "packages" : [ "org.jboss.logging" ]
   }, {
     "groupId" : "org.jadira.usertype",
     "artifactId" : "usertype.spi",
-    "version" : "5.0.0.GA",
+    "version" : "6.0.1.GA",
     "scope" : "compile",
     "systemPath" : null,
     "packages" : [ "org.jadira.usertype.spi.utils.reflection", "org.jadira.usertype.spi.repository", "org.jadira.usertype.spi.utils.lang", "org.jadira.usertype.spi.jta", "org.jadira.usertype.spi.shared", "org.jadira.usertype.spi.utils.runtime", "org.jadira.usertype.spi.shared.descriptor.sql" ]
   }, {
     "groupId" : "org.hibernate",
     "artifactId" : "hibernate-core",
-    "version" : "5.1.0.Final",
+    "version" : "5.2.7.Final",
     "scope" : "compile",
     "systemPath" : null,
-    "packages" : [ "org.hibernate.internal.util.type", "org.hibernate.engine", "org.hibernate.result.internal", "org.hibernate.cfg.annotations.reflection", "org.hibernate.hql.spi.id", "org.hibernate.resource.jdbc", "org.hibernate.integrator.internal", "org.hibernate.internal.util.beans", "org.hibernate.type.descriptor.converter", "org.hibernate.loader.plan.exec.internal", "org.hibernate.proxy.pojo.javassist", "org.hibernate.loader.plan.build.internal", "org.hibernate.tuple.entity", "org.hibernate.id.factory.spi", "org.hibernate.service.internal", "org.hibernate.loader.plan.build.internal.returns", "org.hibernate.tuple", "org.hibernate.engine.internal", "org.hibernate.persister.entity", "org.hibernate.event.service.internal", "org.hibernate.metadata", "org.hibernate.loader.entity.plan", "org.hibernate.exception.spi", "org.hibernate.criterion", "org.hibernate.tool.schema.internal.exec", "org.hibernate.boot.model.source.internal.annotations", "org.hibernate.secure.spi", "org.hibernate.hql.internal.classic", "org.hibernate.engine.jdbc.internal", "org.hibernate.engine.jdbc.batch.internal", "org.hibernate.type", "org.hibernate.bytecode.spi", "org.hibernate.cfg", "org.hibernate.action.internal", "org.hibernate.hql.internal.ast.tree", "org.hibernate.tool.schema.extract.spi", "org.hibernate.service", "org.hibernate.loader.custom", "org.hibernate.engine.jdbc.dialect.internal", "org.hibernate.stat.internal", "org.hibernate.type.descriptor", "org.hibernate.resource.transaction.internal", "org.hibernate.tool.schema", "org.hibernate.loader.collection", "org.hibernate.action.spi", "org.hibernate.loader.plan.build.spi", "org.hibernate.boot.archive.scan.internal", "org.hibernate.boot.registry.classloading.internal", "org.hibernate.hql.spi.id.local", "org.hibernate.boot.cfgxml.spi", "org.hibernate.bytecode.enhance.internal", "org.hibernate.id.factory", "org.hibernate", "org.hibernate.loader.plan.exec.query.spi", "org.hibernate.persister.walking.internal", "org.hibernate.boot.model.source.internal.hbm", "org.hibernate.boot.model.source.internal", "org.hibernate.procedure.internal", "org.hibernate.jdbc", "org.hibernate.engine.jdbc.dialect.spi", "org.hibernate.engine.jndi.spi", "org.hibernate.loader.plan.exec.spi", "org.hibernate.exception", "org.hibernate.internal.log", "org.hibernate.engine.transaction.spi", "org.hibernate.boot.registry.internal", "org.hibernate.engine.jdbc.connections.internal", "org.hibernate.boot.jaxb.internal.stax", "org.hibernate.cache.internal", "org.hibernate.loader.plan.build.internal.spaces", "org.hibernate.dialect.pagination", "org.hibernate.hql.internal.ast.util", "org.hibernate.boot.model.source.spi", "org.hibernate.persister.collection", "org.hibernate.service.spi", "org.hibernate.dialect.unique", "org.hibernate.graph.spi", "org.hibernate.resource.transaction.backend.jta.internal", "org.hibernate.engine.loading.internal", "org.hibernate.engine.query.internal", "org.hibernate.internal.util.jndi", "org.hibernate.boot", "org.hibernate.tool.enhance", "org.hibernate.engine.spi", "org.hibernate.engine.transaction.internal", "org.hibernate.boot.jaxb.hbm.internal", "org.hibernate.cache", "org.hibernate.id.enhanced", "org.hibernate.context", "org.hibernate.resource.transaction.backend.jdbc.spi", "org.hibernate.mapping", "org.hibernate.secure.internal", "org.hibernate.annotations", "org.hibernate.engine.jdbc.batch.spi", "org.hibernate.loader.plan.exec.process.internal", "org.hibernate.engine.config.internal", "org.hibernate.boot.archive.internal", "org.hibernate.engine.jdbc.spi", "org.hibernate.engine.jndi", "org.hibernate.id.uuid", "org.hibernate.hql.spi.id.global", "org.hibernate.loader.hql", "org.hibernate.property.access.spi", "org.hibernate.bytecode.enhance.spi", "org.hibernate.boot.internal", "org.hibernate.engine.jdbc.cursor.spi", "org.hibernate.resource.jdbc.spi", "org.hibernate.boot.jaxb.cfg.spi", "org.hibernate.boot.registry.selector", "org.hibernate.internal.util.io", "org.hibernate.boot.registry.selector.internal", "org.hibernate.hql.internal.antlr", "org.hibernate.dialect.lock", "org.hibernate.loader.criteria", "org.hibernate.tool.schema.extract.internal", "org.hibernate.boot.jaxb", "org.hibernate.event.spi", "org.hibernate.proxy", "org.hibernate.resource.jdbc.internal", "org.hibernate.cfg.annotations", "org.hibernate.sql.ordering.antlr", "org.hibernate.collection.spi", "org.hibernate.cache.spi.entry", "org.hibernate.resource.transaction.backend.jdbc.internal", "org.hibernate.loader.entity", "org.hibernate.engine.jdbc.env.spi", "org.hibernate.id", "org.hibernate.classic", "org.hibernate.param", "org.hibernate.engine.jdbc", "org.hibernate.hql.internal.ast.exec", "org.hibernate.tool.schema.internal", "org.hibernate.bytecode.internal.javassist", "org.hibernate.dialect", "org.hibernate.boot.model.relational", "org.hibernate.boot.registry.selector.spi", "org.hibernate.id.factory.internal", "org.hibernate.jmx.spi", "org.hibernate.engine.transaction.internal.jta", "org.hibernate.persister.internal", "org.hibernate.pretty", "org.hibernate.boot.registry.classloading.spi", "org.hibernate.internal.util.compare", "org.hibernate.internal.util", "org.hibernate.boot.model.naming", "org.hibernate.proxy.map", "org.hibernate.engine.jndi.internal", "org.hibernate.boot.spi", "org.hibernate.cache.spi", "org.hibernate.engine.query.spi", "org.hibernate.internal", "org.hibernate.boot.registry", "org.hibernate.proxy.pojo", "org.hibernate.stat", "org.hibernate.boot.jaxb.spi", "org.hibernate.tool.schema.spi", "org.hibernate.tool.hbm2ddl", "org.hibernate.dialect.identity", "org.hibernate.engine.config.spi", "org.hibernate.transform", "org.hibernate.engine.profile", "org.hibernate.hql.internal.ast", "org.hibernate.hql.spi", "org.hibernate.lob", "org.hibernate.usertype", "org.hibernate.result.spi", "org.hibernate.engine.jdbc.connections.spi", "org.hibernate.boot.cfgxml.internal", "org.hibernate.collection.internal", "org.hibernate.type.descriptor.java", "org.hibernate.internal.util.collections", "org.hibernate.jmx.internal", "org.hibernate.boot.archive.scan.spi", "org.hibernate.boot.archive.spi", "org.hibernate.loader.plan.exec.query.internal", "org.hibernate.context.spi", "org.hibernate.persister.walking.spi", "org.hibernate.stat.spi", "org.hibernate.event.service.spi", "org.hibernate.engine.transaction.jta.platform.internal", "org.hibernate.loader.plan.exec.process.spi", "org.hibernate.engine.jdbc.cursor.internal", "org.hibernate.engine.jdbc.env.internal", "org.hibernate.boot.model.process.spi", "org.hibernate.boot.jaxb.hbm.spi", "org.hibernate.engine.query.spi.sql", "org.hibernate.resource.transaction.backend.jta.internal.synchronization", "org.hibernate.property.access.internal", "org.hibernate.resource.transaction.spi", "org.hibernate.hql.internal", "org.hibernate.procedure", "org.hibernate.procedure.spi", "org.hibernate.hql.spi.id.persistent", "org.hibernate.sql", "org.hibernate.boot.model", "org.hibernate.bytecode.enhance.spi.interceptor", "org.hibernate.event.internal", "org.hibernate.type.descriptor.sql", "org.hibernate.loader.spi", "org.hibernate.tuple.component", "org.hibernate.cfg.beanvalidation", "org.hibernate.resource.transaction", "org.hibernate.loader.custom.sql", "org.hibernate.boot.model.process.internal", "org.hibernate.context.internal", "org.hibernate.result", "org.hibernate.exception.internal", "org.hibernate.internal.util.xml", "org.hibernate.persister.spi", "org.hibernate.internal.util.config", "org.hibernate.loader", "org.hibernate.loader.collection.plan", "org.hibernate.engine.transaction.jta.platform.spi", "org.hibernate.tool.instrument.javassist", "org.hibernate.boot.jaxb.internal", "org.hibernate.dialect.function", "org.hibernate.cache.spi.access", "org.hibernate.integrator.spi", "org.hibernate.bytecode.enhance.internal.tracker", "org.hibernate.loader.plan.spi", "org.hibernate.id.insert" ]
+    "packages" : [ "org.hibernate.internal.util.type", "org.hibernate.query.criteria.internal.expression", "org.hibernate.engine", "org.hibernate.result.internal", "org.hibernate.cfg.annotations.reflection", "org.hibernate.hql.spi.id", "org.hibernate.resource.jdbc", "org.hibernate.integrator.internal", "org.hibernate.internal.util.beans", "org.hibernate.type.descriptor.converter", "org.hibernate.loader.plan.exec.internal", "org.hibernate.proxy.pojo.javassist", "org.hibernate.loader.plan.build.internal", "org.hibernate.tuple.entity", "org.hibernate.id.factory.spi", "org.hibernate.service.internal", "org.hibernate.loader.plan.build.internal.returns", "org.hibernate.tuple", "org.hibernate.engine.internal", "org.hibernate.jpa.event.internal.jpa", "org.hibernate.persister.entity", "org.hibernate.event.service.internal", "org.hibernate.jpa.event.internal.core", "org.hibernate.bytecode.enhance.internal.bytebuddy", "org.hibernate.metadata", "org.hibernate.loader.entity.plan", "org.hibernate.exception.spi", "org.hibernate.criterion", "org.hibernate.tool.schema.internal.exec", "org.hibernate.boot.model.source.internal.annotations", "org.hibernate.secure.spi", "org.hibernate.hql.internal.classic", "org.hibernate.engine.jdbc.internal", "org.hibernate.engine.jdbc.batch.internal", "org.hibernate.type", "org.hibernate.bytecode.spi", "org.hibernate.cfg", "org.hibernate.action.internal", "org.hibernate.hql.internal.ast.tree", "org.hibernate.tool.schema.extract.spi", "org.hibernate.query.criteria", "org.hibernate.service", "org.hibernate.loader.custom", "org.hibernate.ejb", "org.hibernate.engine.jdbc.dialect.internal", "org.hibernate.stat.internal", "org.hibernate.type.descriptor", "org.hibernate.resource.transaction.internal", "org.hibernate.loader.collection", "org.hibernate.tool.schema", "org.hibernate.action.spi", "org.hibernate.loader.plan.build.spi", "org.hibernate.boot.archive.scan.internal", "org.hibernate.boot.registry.classloading.internal", "org.hibernate.hql.spi.id.local", "org.hibernate.boot.cfgxml.spi", "org.hibernate.jpa.spi", "org.hibernate.id.factory", "org.hibernate", "org.hibernate.loader.plan.exec.query.spi", "org.hibernate.boot.model.source.internal.hbm", "org.hibernate.persister.walking.internal", "org.hibernate.boot.model.source.internal", "org.hibernate.jdbc", "org.hibernate.procedure.internal", "org.hibernate.jpa.event.spi.jpa", "org.hibernate.engine.jdbc.dialect.spi", "org.hibernate.engine.jndi.spi", "org.hibernate.loader.plan.exec.spi", "org.hibernate.exception", "org.hibernate.internal.log", "org.hibernate.query.internal", "org.hibernate.engine.transaction.spi", "org.hibernate.query.criteria.internal.expression.function", "org.hibernate.boot.registry.internal", "org.hibernate.engine.jdbc.connections.internal", "org.hibernate.boot.jaxb.internal.stax", "org.hibernate.cache.internal", "org.hibernate.bytecode.enhance.internal.javassist", "org.hibernate.loader.plan.build.internal.spaces", "org.hibernate.dialect.pagination", "org.hibernate.hql.internal.ast.util", "org.hibernate.boot.model.source.spi", "org.hibernate.persister.collection", "org.hibernate.service.spi", "org.hibernate.dialect.unique", "org.hibernate.metamodel.spi", "org.hibernate.graph.spi", "org.hibernate.engine.loading.internal", "org.hibernate.resource.transaction.backend.jta.internal", "org.hibernate.engine.query.internal", "org.hibernate.internal.util.jndi", "org.hibernate.boot", "org.hibernate.query.criteria.internal.path", "org.hibernate.tool.enhance", "org.hibernate.engine.spi", "org.hibernate.metamodel.internal", "org.hibernate.engine.transaction.internal", "org.hibernate.proxy.pojo.bytebuddy", "org.hibernate.boot.jaxb.hbm.internal", "org.hibernate.cache", "org.hibernate.id.enhanced", "org.hibernate.context", "org.hibernate.resource.transaction.backend.jdbc.spi", "org.hibernate.mapping", "org.hibernate.secure.internal", "org.hibernate.annotations", "org.hibernate.query.criteria.internal", "org.hibernate.engine.jdbc.batch.spi", "org.hibernate.loader.plan.exec.process.internal", "org.hibernate.engine.config.internal", "org.hibernate.boot.archive.internal", "org.hibernate.engine.jdbc.spi", "org.hibernate.engine.jndi", "org.hibernate.id.uuid", "org.hibernate.hql.spi.id.global", "org.hibernate.loader.hql", "org.hibernate.property.access.spi", "org.hibernate.bytecode.enhance.spi", "org.hibernate.boot.internal", "org.hibernate.engine.jdbc.cursor.spi", "org.hibernate.resource.jdbc.spi", "org.hibernate.boot.jaxb.cfg.spi", "org.hibernate.boot.registry.selector", "org.hibernate.internal.util.io", "org.hibernate.boot.registry.selector.internal", "org.hibernate.query", "org.hibernate.hql.internal.antlr", "org.hibernate.loader.criteria", "org.hibernate.dialect.lock", "org.hibernate.tool.schema.extract.internal", "org.hibernate.boot.jaxb", "org.hibernate.event.spi", "org.hibernate.query.criteria.internal.predicate", "org.hibernate.proxy", "org.hibernate.resource.jdbc.internal", "org.hibernate.cfg.annotations", "org.hibernate.sql.ordering.antlr", "org.hibernate.cache.spi.entry", "org.hibernate.collection.spi", "org.hibernate.jpa.boot.spi", "org.hibernate.resource.transaction.backend.jdbc.internal", "org.hibernate.loader.entity", "org.hibernate.engine.jdbc.env.spi", "org.hibernate.id", "org.hibernate.classic", "org.hibernate.param", "org.hibernate.jpa.internal", "org.hibernate.engine.jdbc", "org.hibernate.hql.internal.ast.exec", "org.hibernate.tool.schema.internal", "org.hibernate.bytecode.internal.javassist", "org.hibernate.query.procedure.spi", "org.hibernate.dialect", "org.hibernate.boot.model.relational", "org.hibernate.boot.registry.selector.spi", "org.hibernate.id.factory.internal", "org.hibernate.jmx.spi", "org.hibernate.engine.transaction.internal.jta", "org.hibernate.persister.internal", "org.hibernate.pretty", "org.hibernate.boot.registry.classloading.spi", "org.hibernate.internal.util.compare", "org.hibernate.jpa.event.spi", "org.hibernate.internal.util", "org.hibernate.boot.model.naming", "org.hibernate.proxy.map", "org.hibernate.engine.jndi.internal", "org.hibernate.boot.spi", "org.hibernate.bytecode.internal.bytebuddy", "org.hibernate.cache.spi", "org.hibernate.engine.query.spi", "org.hibernate.internal", "org.hibernate.boot.registry", "org.hibernate.boot.jaxb.spi", "org.hibernate.stat", "org.hibernate.proxy.pojo", "org.hibernate.jpa.internal.util", "org.hibernate.tool.schema.spi", "org.hibernate.tool.hbm2ddl", "org.hibernate.dialect.identity", "org.hibernate.engine.config.spi", "org.hibernate.engine.profile", "org.hibernate.transform", "org.hibernate.hql.internal.ast", "org.hibernate.query.criteria.internal.compile", "org.hibernate.hql.spi", "org.hibernate.jpa.graph.internal", "org.hibernate.lob", "org.hibernate.usertype", "org.hibernate.result.spi", "org.hibernate.boot.cfgxml.internal", "org.hibernate.engine.jdbc.connections.spi", "org.hibernate.type.descriptor.java", "org.hibernate.collection.internal", "org.hibernate.internal.util.collections", "org.hibernate.jmx.internal", "org.hibernate.boot.archive.scan.spi", "org.hibernate.boot.archive.spi", "org.hibernate.loader.plan.exec.query.internal", "org.hibernate.context.spi", "org.hibernate.persister.walking.spi", "org.hibernate.stat.spi", "org.hibernate.event.service.spi", "org.hibernate.engine.transaction.jta.platform.internal", "org.hibernate.loader.plan.exec.process.spi", "org.hibernate.engine.jdbc.cursor.internal", "org.hibernate.boot.model.process.spi", "org.hibernate.engine.jdbc.env.internal", "org.hibernate.boot.jaxb.hbm.spi", "org.hibernate.engine.query.spi.sql", "org.hibernate.resource.transaction.backend.jta.internal.synchronization", "org.hibernate.property.access.internal", "org.hibernate.resource.transaction.spi", "org.hibernate.hql.internal", "org.hibernate.procedure", "org.hibernate.procedure.spi", "org.hibernate.hql.spi.id.persistent", "org.hibernate.sql", "org.hibernate.boot.model", "org.hibernate.bytecode.enhance.spi.interceptor", "org.hibernate.event.internal", "org.hibernate.type.descriptor.sql", "org.hibernate.loader.spi", "org.hibernate.jpa.boot.internal", "org.hibernate.tuple.component", "org.hibernate.cfg.beanvalidation", "org.hibernate.resource.transaction", "org.hibernate.loader.custom.sql", "org.hibernate.boot.model.process.internal", "org.hibernate.context.internal", "org.hibernate.exception.internal", "org.hibernate.result", "org.hibernate.internal.util.xml", "org.hibernate.query.procedure.internal", "org.hibernate.jpa", "org.hibernate.internal.util.config", "org.hibernate.persister.spi", "org.hibernate.loader", "org.hibernate.loader.collection.plan", "org.hibernate.engine.transaction.jta.platform.spi", "org.hibernate.tool.instrument.javassist", "org.hibernate.boot.jaxb.internal", "org.hibernate.jpa.internal.enhance", "org.hibernate.dialect.function", "org.hibernate.cache.spi.access", "org.hibernate.integrator.spi", "org.hibernate.bytecode.enhance.internal.tracker", "org.hibernate.loader.plan.spi", "org.hibernate.query.spi", "org.hibernate.query.procedure", "org.hibernate.id.insert" ]
   }, {
     "groupId" : "org.hibernate.javax.persistence",
     "artifactId" : "hibernate-jpa-2.1-api",
@@ -557,7 +571,7 @@
   }, {
     "groupId" : "org.jboss",
     "artifactId" : "jandex",
-    "version" : "2.0.0.Final",
+    "version" : "2.0.3.Final",
     "scope" : "compile",
     "systemPath" : null,
     "packages" : [ "org.jboss.jandex" ]
@@ -576,13 +590,6 @@
     "systemPath" : null,
     "packages" : [ "org.dom4j", "org.dom4j.swing", "org.dom4j.xpath", "org.dom4j.rule", "org.dom4j.io", "org.dom4j.tree", "org.dom4j.dom", "org.dom4j.rule.pattern", "org.dom4j.jaxb", "org.dom4j.util", "org.dom4j.datatype", "org.dom4j.xpp", "org.dom4j.dtd", "org.dom4j.bean" ]
   }, {
-    "groupId" : "xml-apis",
-    "artifactId" : "xml-apis",
-    "version" : "1.0.b2",
-    "scope" : "compile",
-    "systemPath" : null,
-    "packages" : [ "org.xml.sax.ext", "org.xml.sax.helpers", "org.w3c.dom", "javax.xml.transform.sax", "org.w3c.dom.stylesheets", "javax.xml.parsers", "javax.xml.transform.dom", "javax.xml.transform", "org.w3c.dom.traversal", "org.w3c.dom.views", "org.w3c.dom.css", "org.w3c.dom.events", "javax.xml.transform.stream", "org.xml.sax", "org.apache.xmlcommons", "org.w3c.dom.html", "org.w3c.dom.ranges" ]
-  }, {
     "groupId" : "org.hibernate.common",
     "artifactId" : "hibernate-commons-annotations",
     "version" : "5.0.1.Final",
@@ -592,7 +599,7 @@
   }, {
     "groupId" : "io.dropwizard",
     "artifactId" : "dropwizard-testing",
-    "version" : "1.1.0-SNAPSHOT",
+    "version" : "1.2.0-SNAPSHOT",
     "scope" : "test",
     "systemPath" : null,
     "packages" : [ "io.dropwizard.testing.junit", "io.dropwizard.testing" ]
@@ -613,42 +620,42 @@
   }, {
     "groupId" : "org.glassfish.jersey.test-framework.providers",
     "artifactId" : "jersey-test-framework-provider-inmemory",
-    "version" : "2.25",
+    "version" : "2.25.1",
     "scope" : "test",
     "systemPath" : null,
     "packages" : [ "org.glassfish.jersey.test.inmemory" ]
   }, {
     "groupId" : "org.glassfish.jersey.test-framework",
     "artifactId" : "jersey-test-framework-core",
-    "version" : "2.25",
+    "version" : "2.25.1",
     "scope" : "test",
     "systemPath" : null,
     "packages" : [ "org.glassfish.jersey.test.spi", "org.glassfish.jersey.test" ]
   }, {
     "groupId" : "org.glassfish.jersey.containers",
     "artifactId" : "jersey-container-servlet-core",
-    "version" : "2.25",
+    "version" : "2.25.1",
     "scope" : "compile",
     "systemPath" : null,
     "packages" : [ "org.glassfish.jersey.servlet.spi", "org.glassfish.jersey.servlet.internal", "org.glassfish.jersey.servlet", "org.glassfish.jersey.servlet.internal.spi" ]
   }, {
     "groupId" : "org.glassfish.jersey.core",
     "artifactId" : "jersey-server",
-    "version" : "2.25",
+    "version" : "2.25.1",
     "scope" : "compile",
     "systemPath" : null,
     "packages" : [ "org.glassfish.jersey.server.filter", "org.glassfish.jersey.server.wadl.internal.generators.resourcedoc", "org.glassfish.jersey.server.wadl", "org.glassfish.jersey.server.internal", "org.glassfish.jersey.server.internal.process", "org.glassfish.jersey.server.spi", "org.glassfish.jersey.server.wadl.config", "org.glassfish.jersey.server.wadl.internal.generators.resourcedoc.xhtml", "org.glassfish.jersey.server", "jersey.repackaged.org.objectweb.asm", "org.glassfish.jersey.server.internal.inject", "org.glassfish.jersey.server.model.internal", "org.glassfish.jersey.server.internal.sonar", "org.glassfish.jersey.server.internal.scanning", "org.glassfish.jersey.server.internal.routing", "org.glassfish.jersey.server.wadl.internal.generators", "org.glassfish.jersey.server.filter.internal", "org.glassfish.jersey.server.spi.internal", "org.glassfish.jersey.server.wadl.internal.generators.resourcedoc.model", "org.glassfish.jersey.server.monitoring", "org.glassfish.jersey.server.wadl.processor", "com.sun.research.ws.wadl", "org.glassfish.jersey.server.model", "org.glassfish.jersey.server.wadl.internal", "org.glassfish.jersey.server.internal.monitoring.jmx", "org.glassfish.jersey.server.internal.monitoring" ]
   }, {
     "groupId" : "org.glassfish.jersey.core",
     "artifactId" : "jersey-common",
-    "version" : "2.25",
+    "version" : "2.25.1",
     "scope" : "compile",
     "systemPath" : null,
     "packages" : [ "org.glassfish.jersey.internal.spi", "org.glassfish.jersey.internal.util.collection", "org.glassfish.jersey.logging", "org.glassfish.jersey", "org.glassfish.jersey.message", "org.glassfish.jersey.internal.sonar", "org.glassfish.jersey.model.internal", "org.glassfish.jersey.process.internal", "org.glassfish.jersey.spi", "org.glassfish.jersey.uri", "org.glassfish.jersey.process", "org.glassfish.jersey.filter", "org.glassfish.jersey.internal.inject", "org.glassfish.jersey.message.internal", "org.glassfish.jersey.internal.l10n", "org.glassfish.jersey.uri.internal", "org.glassfish.jersey.internal", "org.glassfish.jersey.internal.util", "org.glassfish.jersey.model" ]
   }, {
     "groupId" : "org.glassfish.jersey.bundles.repackaged",
     "artifactId" : "jersey-guava",
-    "version" : "2.25",
+    "version" : "2.25.1",
     "scope" : "compile",
     "systemPath" : null,
     "packages" : [ "jersey.repackaged.com.google.common.hash", "jersey.repackaged.com.google.common.io", "jersey.repackaged.com.google.common.primitives", "jersey.repackaged.com.google.common.cache", "jersey.repackaged.com.google.common.util.concurrent", "jersey.repackaged.com.google.common.collect", "jersey.repackaged.com.google.common.math", "jersey.repackaged.com.google.common.base", "jersey.repackaged.com.google.common.net" ]
@@ -669,7 +676,7 @@
   }, {
     "groupId" : "org.glassfish.jersey.media",
     "artifactId" : "jersey-media-jaxb",
-    "version" : "2.25",
+    "version" : "2.25.1",
     "scope" : "compile",
     "systemPath" : null,
     "packages" : [ "org.glassfish.jersey.jaxb.internal" ]
@@ -683,35 +690,35 @@
   }, {
     "groupId" : "org.glassfish.hk2",
     "artifactId" : "hk2-api",
-    "version" : "2.5.0-b30",
+    "version" : "2.5.0-b32",
     "scope" : "compile",
     "systemPath" : null,
     "packages" : [ "org.glassfish.hk2.api", "org.glassfish.hk2.utilities.binding", "org.glassfish.hk2.utilities", "org.glassfish.hk2.extension", "org.glassfish.hk2.api.messaging", "org.jvnet.hk2.annotations", "org.glassfish.hk2.internal" ]
   }, {
     "groupId" : "org.glassfish.hk2",
     "artifactId" : "hk2-utils",
-    "version" : "2.5.0-b30",
+    "version" : "2.5.0-b32",
     "scope" : "compile",
     "systemPath" : null,
     "packages" : [ "org.glassfish.hk2.utilities.cache", "org.glassfish.hk2.utilities.reflection.internal", "org.glassfish.hk2.utilities.general.internal", "org.jvnet.tiger_types", "org.jvnet.hk2.component", "org.glassfish.hk2.utilities.reflection", "org.glassfish.hk2.utilities.general", "org.glassfish.hk2.utilities.cache.internal" ]
   }, {
     "groupId" : "org.glassfish.hk2.external",
     "artifactId" : "aopalliance-repackaged",
-    "version" : "2.5.0-b30",
+    "version" : "2.5.0-b32",
     "scope" : "compile",
     "systemPath" : null,
     "packages" : [ "org.aopalliance.aop", "org.aopalliance.instrument", "org.aopalliance.reflect", "org.aopalliance.intercept" ]
   }, {
     "groupId" : "org.glassfish.hk2.external",
     "artifactId" : "javax.inject",
-    "version" : "2.5.0-b30",
+    "version" : "2.5.0-b32",
     "scope" : "compile",
     "systemPath" : null,
     "packages" : [ "javax.inject" ]
   }, {
     "groupId" : "org.glassfish.hk2",
     "artifactId" : "hk2-locator",
-    "version" : "2.5.0-b30",
+    "version" : "2.5.0-b32",
     "scope" : "compile",
     "systemPath" : null,
     "packages" : [ "org.jvnet.hk2.external.runtime", "org.jvnet.hk2.internal", "org.jvnet.hk2.external.generator" ]
@@ -725,7 +732,7 @@
   }, {
     "groupId" : "org.glassfish.jersey.core",
     "artifactId" : "jersey-client",
-    "version" : "2.25",
+    "version" : "2.25.1",
     "scope" : "compile",
     "systemPath" : null,
     "packages" : [ "org.glassfish.jersey.client.spi", "org.glassfish.jersey.client.authentication", "org.glassfish.jersey.client.internal", "org.glassfish.jersey.client", "org.glassfish.jersey.client.filter" ]

@@ -11,7 +11,7 @@
   "dependencies" : [ {
     "groupId" : "io.dropwizard",
     "artifactId" : "dropwizard-util",
-    "version" : "1.1.0-SNAPSHOT",
+    "version" : "1.2.0-SNAPSHOT",
     "scope" : "compile",
     "systemPath" : null,
     "packages" : [ "io.dropwizard.util" ]
